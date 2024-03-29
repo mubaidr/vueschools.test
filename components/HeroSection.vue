@@ -5,7 +5,7 @@
     <div class="flex-1">
       <h1 class="text-6xl font-bold">
         Complete
-        <span class="text-green-500">Vue.js training</span>
+        <span class="text-primary">Vue.js training</span>
         solutions for companies
       </h1>
       <p class="text-xl mt-8 mb-12">
@@ -14,7 +14,7 @@
       </p>
       <a
         href="/contact-us"
-        class="bg-green-500 px-8 py-4 rounded-lg font-semibold text-black"
+        class="bg-primary px-8 py-4 rounded-lg font-semibold text-black"
       >
         Talk To Sales
       </a>
