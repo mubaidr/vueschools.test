@@ -14,7 +14,7 @@
       </p>
       <a
         href="/contact-us"
-        class="bg-primary px-8 py-4 rounded-lg font-semibold text-black"
+        class="bg-primary px-8 py-4 rounded-lg font-semibold text-green-950"
       >
         Talk To Sales
       </a>

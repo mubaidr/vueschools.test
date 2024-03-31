@@ -13,25 +13,25 @@
           Solutions
         </h2>
       </div>
-      <div class="flex-1 flex text-center justify-evenly">
+      <div class="flex-1 flex gap-4 text-center justify-evenly text-white">
         <div>
           <div class="text-6xl font-bold">763</div>
-          <div>
-            <img src="/assets/video.svg" class="h-4" />
+          <div class="flex gap-2">
+            <img src="/assets/video.svg" class="object-contain" />
             <span>Video Lessons</span>
           </div>
         </div>
         <div>
           <div class="text-6xl font-bold">40</div>
-          <div>
-            <img src="/assets/course.svg" class="h-4" />
+          <div class="flex gap-2">
+            <img src="/assets/course.svg" class="object-contain" />
             <span>Courses</span>
           </div>
         </div>
         <div>
           <div class="text-6xl font-bold">64</div>
-          <div>
-            <img src="/assets/time.svg" class="h-4" />
+          <div class="flex gap-2">
+            <img src="/assets/time.svg" class="object-contain" />
             <span>15 Hours</span>
           </div>
         </div>

@@ -2,7 +2,7 @@
   <div>
     <HeaderSection></HeaderSection>
 
-    <div class="container mx-auto p-36">
+    <div class="container mx-auto">
       <NuxtPage />
 
       <FooterSection></FooterSection>
