@@ -44,7 +44,7 @@ const socialLinks = ref([
         FOLLOW US IN SOCIAL MEDIA
       </h6>
 
-      <div class="flex gap-16 mt-8">
+      <div class="flex flex-wrap md:flex-nowrap gap-16 mt-8">
         <a
           class="bg-white bg-opacity-5 p-4 rounded-full flex"
           v-for="{ link, icon } in socialLinks"

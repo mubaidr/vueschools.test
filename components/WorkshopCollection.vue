@@ -60,11 +60,13 @@ function getFormatedDate(date: Date) {
 
 <template>
   <section class="my-32">
-    <div class="flex justify-between mb-16">
+    <div
+      class="flex gap-6 flex-wrap md:flex-nowrap justify-between mb-16 text-center md:text-left"
+    >
       <h2 class="text-6xl font-bold">Available Workshops</h2>
       <a
         href="/contact-us"
-        class="block bg-primary px-8 py-4 rounded-lg font-semibold text-green-950"
+        class="bg-primary px-8 py-4 rounded-lg font-semibold text-green-950 mx-auto md:mx-0"
       >
         See all the workshops
       </a>

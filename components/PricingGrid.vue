@@ -125,7 +125,7 @@ const selectedSeats = ref(12)
     </h2>
 
     <div
-      class="flex md:flex-wrap gap-4 md:gap-8 content-evenly place-content-evenly mt-24"
+      class="flex flex-wrap md:flex-nowrap gap-4 md:gap-8 content-evenly place-content-evenly mt-24"
     >
       <div
         v-for="{

@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <section class="flex gap-24 justify-evenly my-28">
+  <section class="flex flex-wrap md:flex-nowrap gap-24 justify-evenly my-28">
     <div class="max-w-lg">
       <h1 class="text-6xl font-bold">
         Complete
@@ -19,7 +19,7 @@
         Talk To Sales
       </a>
     </div>
-    <div class="">
+    <div>
       <img
         src="../public/assets/students.svg"
         alt="students picture"

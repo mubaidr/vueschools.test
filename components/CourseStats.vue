@@ -3,13 +3,13 @@
 <template>
   <section class="my-32">
     <span
-      class="block text-lg tracking-widest font-semibold leading-loose accented-text text-center"
+      class="block text-lg tracking-widest font-semibold leading-loose accented-text text-center md:text-left"
     >
       YOUR #1 SOURCE OF VUE.JS COURSES
     </span>
-    <div class="flex md:flex-wrap md:text-center gap-12">
-      <div class="flex-1 md:flex-initial">
-        <h2 class="text-6xl font-bold">
+    <div class="flex flex-wrap md:flex-nowrap text-center md:text-left gap-12">
+      <div class="flex-1 md:flex-auto">
+        <h2 class="block text-6xl font-bold">
           Full Stack
           <span class="accented-text-reversed">Vue Training</span>
           Solutions
