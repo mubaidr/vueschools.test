@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     dataValue: "theme",
     classSuffix: "",
   },
+  css: ["/public//index.css"],
   devtools: { enabled: true },
   modules: ["@nuxtjs/tailwindcss", "@nuxtjs/color-mode"],
   tailwindcss: {

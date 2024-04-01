@@ -1,8 +1,8 @@
 <script lang="ts" setup></script>
 
 <template>
-  <section class="flex gap-16 mb-28">
-    <div class="flex-1">
+  <section class="flex gap-24 justify-evenly my-28">
+    <div class="max-w-lg">
       <h1 class="text-6xl font-bold">
         Complete
         <span class="text-primary">Vue.js training</span>
@@ -19,7 +19,7 @@
         Talk To Sales
       </a>
     </div>
-    <div class="flex-1">
+    <div class="">
       <img
         src="../public/assets/students.svg"
         alt="students"

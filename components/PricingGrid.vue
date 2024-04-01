@@ -120,7 +120,7 @@ const selectedSeats = ref(12)
   <section>
     <h2 class="text-6xl font-bold text-center mx-auto max-w-lg">
       Discounted
-      <span>Corporate Training</span>
+      <span class="accented-text-reversed">Corporate Training</span>
       Bundles
     </h2>
 

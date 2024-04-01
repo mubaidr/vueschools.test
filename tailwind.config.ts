@@ -10,6 +10,7 @@ export default <Partial<Config>>{
       },
       colors: {
         primary: "#0BD88F",
+        accent: "#00effc",
       },
     },
   },

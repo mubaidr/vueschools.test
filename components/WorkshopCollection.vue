@@ -73,8 +73,10 @@ const workshops = ref([
         :key="title"
         class="w-full min-w-96"
       >
-        <div class="bg-purple-950 px-8 py-4 rounded-tl-3xl rounded-tr-3xl">
-          {{ time }}
+        <div
+          class="px-8 py-4 rounded-tl-3xl rounded-tr-3xl bg-gradient-to-r from-purple-900 via-violet-900 to-orange-900"
+        >
+          {{ time.start }} - {{ time.end }}
         </div>
 
         <div
