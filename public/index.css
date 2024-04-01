@@ -1,0 +1,7 @@
+.accented-text {
+  @apply bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text;
+}
+
+.accented-text-reversed {
+  @apply bg-gradient-to-r from-accent to-primary text-transparent bg-clip-text;
+}

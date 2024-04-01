@@ -1,4 +1,5 @@
 {
+  "htmlWhitespaceSensitivity": "ignore",
   "semi": false,
   "tabWidth": 2,
   "trailingComma": "all",
