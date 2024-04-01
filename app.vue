@@ -2,7 +2,7 @@
   <div>
     <HeaderSection></HeaderSection>
 
-    <div class="container mx-auto">
+    <div class="container mx-auto px-4 md:px-16">
       <NuxtPage />
 
       <FooterSection></FooterSection>

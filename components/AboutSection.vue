@@ -12,14 +12,14 @@ const companyLogos = ref([
 <template>
   <section>
     <div
-      class="p-12 rounded-3xl flex gap-16 bg-gray-700 bg-opacity-25 border border-gray-600"
+      class="p-12 rounded-3xl flex flex-wrap gap-16 bg-gray-700 bg-opacity-25 border border-gray-600"
     >
       <img
         src="../public/assets/logo.svg"
         alt="Vue School Logo"
-        class="object-contain w-28 mx-12"
+        class="object-contain w-28 mx-12 md:mx-auto"
       />
-      <div class="flex-1">
+      <div class="flex-1 md:flex-initial md:text-center">
         <h2 class="text-5xl font-bold">About Vue School corporate training</h2>
         <p class="mt-8 text-xl">
           School is the #1 training resource for Vue.js and has provided the

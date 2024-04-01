@@ -24,11 +24,11 @@ const socialLinks = ref([
 </script>
 
 <template>
-  <footer class="flex gap-24 pb-24">
-    <div class="flex-1">
+  <footer class="flex flex-wrap md:flex-nowrap gap-24 pb-24">
+    <div>
       <div class="flex gap-4">
-        <img src="/assets/logo.svg" alt="vueschool.io logo" class="w-20 h-20" />
-        <h5 class="text-3xl font-bold">
+        <img src="/assets/logo.svg" alt="vueschool.io logo" class="w-18 h-18" />
+        <h5 class="text-3xl font-bold leading-none">
           Vue
           <br />
           School.io
@@ -60,7 +60,8 @@ const socialLinks = ref([
         </a>
       </div>
     </div>
-    <div class="flex-1 flex gap-24">
+
+    <div class="flex gap-24">
       <div>
         <h6 class="text-2xl text-gray-500 font-semibold">PRODUCTS</h6>
         <a class="block my-4">Courses</a>

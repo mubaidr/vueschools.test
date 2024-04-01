@@ -124,7 +124,9 @@ const selectedSeats = ref(12)
       Bundles
     </h2>
 
-    <div class="flex gap-4 md:gap-8 content-evenly place-content-evenly mt-24">
+    <div
+      class="flex md:flex-wrap gap-4 md:gap-8 content-evenly place-content-evenly mt-24"
+    >
       <div
         v-for="{
           title,
