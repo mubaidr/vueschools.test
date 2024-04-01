@@ -112,17 +112,19 @@ const pricingSections = ref([
     discount: 26,
   },
 ])
+
+const selectedSeats = ref(12)
 </script>
 
 <template>
-  <div>
+  <section>
     <h2 class="text-6xl font-bold text-center mx-auto max-w-lg">
       Discounted
       <span>Corporate Training</span>
       Bundles
     </h2>
 
-    <div class="flex gap-4 content-evenly place-content-evenly mt-24">
+    <div class="flex gap-4 md:gap-8 content-evenly place-content-evenly mt-24">
       <div
         v-for="{
           title,
@@ -134,7 +136,7 @@ const pricingSections = ref([
           discount,
         } in pricingSections"
         :key="title"
-        class="flex-1 p-6 bg-gray-800 rounded-3xl bg-opacity-90 border border-gray-700"
+        class="flex-1 p-6 rounded-3xl bg-gray-700 bg-opacity-25 border border-gray-600"
       >
         <h3 class="flex text-2xl font-bold gap-3">
           <img :src="icon" class="object-contain" />
@@ -163,7 +165,7 @@ const pricingSections = ref([
           <div
             v-for="{ title, description, media } in highlights"
             :key="title"
-            class="flex py-4 px-6 gap-4 bg-green-400 bg-opacity-20 rounded-xl"
+            class="flex py-4 px-6 gap-4 bg-green-400 bg-opacity-25 rounded-xl"
           >
             <img :src="media" class="object-contain" />
             <div>
@@ -175,7 +177,7 @@ const pricingSections = ref([
           </div>
         </div>
 
-        <div class="p-8 bg-black bg-opacity-20 rounded-2xl">
+        <div class="p-8 bg-black bg-opacity-25 rounded-2xl">
           <h5 class="text-3xl font-bold">
             ${{ price }}
             <span class="font-light text-sm align-middle">/ seat / month</span>
@@ -186,24 +188,26 @@ const pricingSections = ref([
           <div class="my-4">
             <input
               type="range"
-              value="12"
+              v-model="selectedSeats"
               min="5"
               max="20"
-              class="w-full h-1 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700"
+              class="w-full h-1 bg-gray-200 rounded-lg cursor-pointer dark:bg-gray-700 appearance-none [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:h-[15px] [&::-webkit-slider-thumb]:w-[15px] [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-green-500"
             />
-            <div class="flex justify-between">
+            <div class="flex justify-between text-gray-600">
               <div>5</div>
               <div>20</div>
             </div>
           </div>
 
           <div class="flex gap-4">
-            <div class="flex-1 flex gap-2">
+            <div
+              class="flex-1 flex gap-2 bg-black bg-opacity-25 px-4 py-2 rounded-lg"
+            >
               <img src="/assets/group.svg" class="object-contain" />
-              <span class="font-bold">{{ 12 }}</span>
+              <span class="font-bold">{{ selectedSeats }}</span>
               <span>seats</span>
             </div>
-            <div class="flex-1 text-primary font-bold">
+            <div class="flex-1 text-primary font-bold px-4 py-2">
               {{ discount }}% discount
             </div>
           </div>
@@ -226,7 +230,7 @@ const pricingSections = ref([
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <style lang="scss" scoped></style>

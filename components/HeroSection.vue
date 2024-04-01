@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <div class="flex gap-16 mb-28">
+  <section class="flex gap-16 mb-28">
     <div class="flex-1">
       <h1 class="text-6xl font-bold">
         Complete
@@ -26,7 +26,7 @@
         class="object-scale-down -my-16"
       />
     </div>
-  </div>
+  </section>
 </template>
 
 <style lang="scss" scoped></style>

@@ -10,9 +10,9 @@ const companyLogos = ref([
 </script>
 
 <template>
-  <div>
+  <section>
     <div
-      class="p-12 bg-gray-800 rounded-3xl flex gap-16 bg-opacity-90 border border-gray-700"
+      class="p-12 rounded-3xl flex gap-16 bg-gray-700 bg-opacity-25 border border-gray-600"
     >
       <img src="../public/assets/logo.svg" class="object-contain w-28 mx-12" />
       <div class="flex-1">
@@ -33,7 +33,7 @@ const companyLogos = ref([
         class="h-8 px-12"
       />
     </div>
-  </div>
+  </section>
 </template>
 
 <style lang="scss" scoped></style>
