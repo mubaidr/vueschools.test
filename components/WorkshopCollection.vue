@@ -94,11 +94,19 @@ function getFormatedDate(date: Date) {
         >
           <div class="flex gap-6">
             <div class="flex gap-2">
-              <img src="/assets/video-dark.svg" class="object-contain" />
+              <img
+                src="/assets/video-dark.svg"
+                alt="video icon"
+                class="object-contain"
+              />
               <span>{{ type }}</span>
             </div>
             <div class="flex gap-2">
-              <img src="/assets/time-dark.svg" class="object-contain" />
+              <img
+                src="/assets/time-dark.svg"
+                alt="duration icon"
+                class="object-contain"
+              />
               <span>{{ duration }} hours</span>
             </div>
           </div>
@@ -109,7 +117,11 @@ function getFormatedDate(date: Date) {
           </div>
 
           <div class="flex gap-2 mt-4">
-            <img :src="author.profile" class="object-contain" />
+            <img
+              :src="author.profile"
+              alt="author profile picture"
+              class="object-contain"
+            />
             <span>{{ author.name }}</span>
           </div>
         </div>

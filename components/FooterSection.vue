@@ -27,7 +27,7 @@ const socialLinks = ref([
   <footer class="flex gap-24 pb-24">
     <div class="flex-1">
       <div class="flex gap-4">
-        <img src="/assets/logo.svg" class="w-20 h-20" />
+        <img src="/assets/logo.svg" alt="vueschool.io logo" class="w-20 h-20" />
         <h5 class="text-3xl font-bold">
           Vue
           <br />
@@ -52,7 +52,11 @@ const socialLinks = ref([
           href="link"
           target="_blank"
         >
-          <img :src="icon" class="min-w-6 justify-self-center" />
+          <img
+            :src="icon"
+            alt="social icon"
+            class="min-w-6 justify-self-center"
+          />
         </a>
       </div>
     </div>

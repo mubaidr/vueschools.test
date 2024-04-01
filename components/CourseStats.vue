@@ -19,21 +19,33 @@
         <div>
           <div class="text-6xl font-bold accented-text">763</div>
           <div class="flex gap-2">
-            <img src="/assets/video.svg" class="object-contain" />
+            <img
+              src="/assets/video.svg"
+              alt="video icon"
+              class="object-contain"
+            />
             <span>Video Lessons</span>
           </div>
         </div>
         <div>
           <div class="text-6xl font-bold accented-text">40</div>
           <div class="flex gap-2">
-            <img src="/assets/course.svg" class="object-contain" />
+            <img
+              src="/assets/course.svg"
+              alt="course icon"
+              class="object-contain"
+            />
             <span>Courses</span>
           </div>
         </div>
         <div>
           <div class="text-6xl font-bold accented-text">64</div>
           <div class="flex gap-2">
-            <img src="/assets/time.svg" class="object-contain" />
+            <img
+              src="/assets/time.svg"
+              alt="time icon"
+              class="object-contain"
+            />
             <span>15 Hours</span>
           </div>
         </div>

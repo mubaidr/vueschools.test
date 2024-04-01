@@ -14,7 +14,11 @@ const companyLogos = ref([
     <div
       class="p-12 rounded-3xl flex gap-16 bg-gray-700 bg-opacity-25 border border-gray-600"
     >
-      <img src="../public/assets/logo.svg" class="object-contain w-28 mx-12" />
+      <img
+        src="../public/assets/logo.svg"
+        alt="Vue School Logo"
+        class="object-contain w-28 mx-12"
+      />
       <div class="flex-1">
         <h2 class="text-5xl font-bold">About Vue School corporate training</h2>
         <p class="mt-8 text-xl">
@@ -31,6 +35,7 @@ const companyLogos = ref([
         v-for="logo in companyLogos"
         :key="logo"
         class="h-8 px-12"
+        alt="Company Logo"
       />
     </div>
   </section>

@@ -22,7 +22,7 @@
     <div class="">
       <img
         src="../public/assets/students.svg"
-        alt="students"
+        alt="students picture"
         class="object-scale-down -my-16"
       />
     </div>

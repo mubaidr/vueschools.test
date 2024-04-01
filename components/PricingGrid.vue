@@ -139,7 +139,7 @@ const selectedSeats = ref(12)
         class="flex-1 p-6 rounded-3xl bg-gray-700 bg-opacity-25 border border-gray-600"
       >
         <h3 class="flex text-2xl font-bold gap-3">
-          <img :src="icon" class="object-contain" />
+          <img :src="icon" class="object-contain" alt="pricing section icon" />
           {{ title }}
         </h3>
 
@@ -151,10 +151,15 @@ const selectedSeats = ref(12)
             :key="title"
             class="flex gap-2 mb-4"
           >
-            <img src="/assets/check.svg" class="object-contain" />
+            <img
+              src="/assets/check.svg"
+              alt="checked icon"
+              class="object-contain"
+            />
             <h4 class="font-bold flex-1">{{ title }}</h4>
             <img
               src="/assets/info.svg"
+              alt="information icon"
               class="object-contain"
               :title="description"
             />
@@ -167,7 +172,7 @@ const selectedSeats = ref(12)
             :key="title"
             class="flex py-4 px-6 gap-4 bg-green-400 bg-opacity-25 rounded-xl"
           >
-            <img :src="media" class="object-contain" />
+            <img :src="media" alt="course media" class="object-contain" />
             <div>
               <span class="opacity-50 text-sm font-semibold">
                 {{ description }}
@@ -203,7 +208,11 @@ const selectedSeats = ref(12)
             <div
               class="flex-1 flex gap-2 bg-black bg-opacity-25 px-4 py-2 rounded-lg"
             >
-              <img src="/assets/group.svg" class="object-contain" />
+              <img
+                src="/assets/group.svg"
+                alt="people icon"
+                class="object-contain"
+              />
               <span class="font-bold">{{ selectedSeats }}</span>
               <span>seats</span>
             </div>
