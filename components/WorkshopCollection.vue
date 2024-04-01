@@ -46,6 +46,16 @@ const workshops = ref([
     },
   },
 ])
+
+function getFormatedDate(date: Date) {
+  return date.toLocaleString("en-US", {
+    month: "short",
+    day: "numeric",
+    hour: "numeric",
+    minute: "numeric",
+    hour12: true,
+  })
+}
 </script>
 
 <template>
@@ -74,9 +84,9 @@ const workshops = ref([
         class="w-full min-w-96"
       >
         <div
-          class="px-8 py-4 rounded-tl-3xl rounded-tr-3xl bg-gradient-to-r from-purple-900 via-violet-900 to-orange-900"
+          class="px-8 py-4 rounded-tl-3xl font-semibold rounded-tr-3xl bg-gradient-to-r from-violet-950 via-purple-950 to-red-900"
         >
-          {{ time.start }} - {{ time.end }}
+          {{ getFormatedDate(time.start) }} GMT(+5)
         </div>
 
         <div
